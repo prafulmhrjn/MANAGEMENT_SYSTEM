@@ -34,7 +34,7 @@ def login():
     login_screen = Toplevel(main_screen)
     login_screen.title("Login")
     login_screen.geometry("310x250")
-    login_screen.iconbitmap('pill.png')
+
     Label(login_screen, text="Enter the details  to login",bd=5,bg='black',fg='white',font=("Bradley Hand ITC",20,"bold")).pack()
     Label(login_screen, text="").pack()
     global username_verify
